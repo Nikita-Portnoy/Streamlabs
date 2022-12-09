@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-jwt-extended = "*"
+braintree = "*"
+mysqlclient = "*"
+passlib = "*"
+argon2-cffi = "*"
+hashids = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
