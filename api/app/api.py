@@ -26,3 +26,15 @@ def route_statistics():
         {'name': 'Stat_4', 'value': 11},
         {'name': 'Stat_5', 'value': 120}
     ]})
+
+@API.route("/premium/statistics", methods = ['GET'])
+def route_premium_statistics():
+    
+    return jsonify({'statistics': [
+        {'name': 'Premium_1', 'value': 11},
+        {'name': 'Premium_2', 'value': 18},
+        {'name': 'Premium_3', 'value': 25},
+        {'name': 'Premium_4', 'value': 48},
+        {'name': 'Premium_5', 'value': 120}
+    ]})
+
