@@ -15,6 +15,15 @@ def route_user_register():
 def route_user_login():
     pass
 
+@API.route("/checkouts/new", methods = ['GET'])
+def route_checkouts_new():
+    pass
+
+@API.route("/checkouts", methods = ['POST'])
+def route_checkouts():
+    request_data = request.json()
+
+
 # Protected
 @API.route("/statistics", methods = ['GET'])
 def route_statistics():

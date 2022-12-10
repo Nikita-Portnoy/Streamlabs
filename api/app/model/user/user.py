@@ -8,6 +8,7 @@ from app.model.db import DBConnection
 class User:
 
     def __init__(self, email = None, password = None, public_id = None):
+        self.db = DBConnection()
 
         #Pull User Data
         if public_id:
